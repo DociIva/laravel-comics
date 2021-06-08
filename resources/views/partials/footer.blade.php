@@ -3,7 +3,7 @@
 <footer>
     <nav class="container flex">
         <div class="btn text-center">
-            SIGN UP NOW
+            SIGN-UP NOW!
         </div>
         <div>
             <ul class="flex">

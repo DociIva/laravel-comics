@@ -4,7 +4,7 @@
         <nav class="nav-header">
             <ul>
                 <li>
-                    <a href="#" class="text-color">Home</a>
+                    <a href="{{ route('home')}}" class="text-color">Home</a>
                 </li>
                 <li>
                     <a href="{{ route('comics') }}" class="active">Comics</a>

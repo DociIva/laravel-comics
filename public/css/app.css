@@ -75,6 +75,10 @@ p {
   margin-top: 20px;
 }
 
+.h-t {
+  height: 500px;
+}
+
 /*
 * ES HEADER | FOOTER
 */
@@ -116,7 +120,6 @@ footer nav {
   border: 2px solid #1C7CEC;
   color: #fff;
   width: 140px;
-  height: 50px;
   padding: 10px;
   margin-top: 20px;
 }
@@ -128,7 +131,7 @@ ul {
 a {
   text-decoration: none;
   margin-left: 15px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
 }
