@@ -1,0 +1,63 @@
+/*******************************************************************
+    APP MAIN STYLES
+********************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 1.5rem 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.active {
+  color: #107aeb;
+}
+
+.text-color {
+  color: #303030;
+}
+
+/*
+* ES HEADER | FOOTER
+*/
+
+.header {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+}
+
+.header .nav-header {
+  margin-left: 20px;
+}
+
+.header .nav-header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .nav-header ul a {
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

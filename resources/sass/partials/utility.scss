@@ -1,0 +1,16 @@
+// UTILITIES
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.text-center {
+    text-align: center;
+}
+.active {
+    color: $active-color;
+}
+.text-color {
+    color: $text-color;
+}
+

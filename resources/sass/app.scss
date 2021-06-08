@@ -1,1 +1,17 @@
-//
+/*******************************************************************
+    APP MAIN STYLES
+********************************************************************/
+
+// GLOBALS
+// (METTI IL PUNTO) LE UTILITY SCRITTO COSI PER FORZA
+@import './partials/vars';
+@import './partials/defaults';
+@import './partials/utility';
+
+// SECTION
+/*
+* ES HEADER | FOOTER
+*/
+@import './partials/header';
+
+// COMPONENTS
