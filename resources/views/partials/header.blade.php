@@ -7,7 +7,7 @@
                     <a href="#" class="text-color">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="active">Comics</a>
+                    <a href="{{ route('comics') }}" class="active">Comics</a>
                 </li>
                 <li>
                     <a href="#" class="text-color">News</a>

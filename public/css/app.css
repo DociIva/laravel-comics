@@ -1,7 +1,6 @@
 /*******************************************************************
     APP MAIN STYLES
 ********************************************************************/
-
 * {
   margin: 0;
   padding: 0;
@@ -35,25 +34,25 @@ p {
   color: #303030;
 }
 
+.flex {
+  display: flex;
+}
+
 /*
 * ES HEADER | FOOTER
 */
-
 .header {
   display: flex;
   padding: 16px;
   align-items: center;
 }
-
 .header .nav-header {
   margin-left: 20px;
 }
-
 .header .nav-header ul {
   display: flex;
   list-style: none;
 }
-
 .header .nav-header ul a {
   text-decoration: none;
   margin-left: 15px;
@@ -61,3 +60,52 @@ p {
   font-weight: bold;
 }
 
+footer {
+  height: 100px;
+  background-color: #383838;
+}
+footer nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-color a {
+  color: #1C7CEC;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #1C7CEC;
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 20%;
+  margin: 0 1% 20px;
+}
+.card img {
+  display: block;
+  margin-bottom: 20px;
+}

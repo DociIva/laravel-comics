@@ -1,0 +1,33 @@
+// STYLE DEL FOOTER
+
+footer {
+    height: 100px;
+    background-color: #383838;
+    nav {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.text-color a {
+    color: #1C7CEC;
+    font-weight: 800;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid #1C7CEC;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+}
