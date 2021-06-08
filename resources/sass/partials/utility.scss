@@ -16,3 +16,33 @@
 .flex {
     display: flex;
 }
+.content {
+    background-color: $content-color;
+    color: $content-text;
+}
+.pad-t {
+    padding-top: 50px;
+}
+.pad-b {
+    padding-bottom: 80px;
+}
+.margin-t {
+    margin-top: 20px;
+}
+.margin-b {
+    margin-bottom: 20px;
+}
+.btn-blue {
+    background-color: #1C7CEC;
+    color: #fff;
+    width: 140px;
+    padding: 10px;
+    margin-top: 40px;
+    position: relative;
+    left: 40%;
+}
+.sez-blue {
+    background-color: #1C7CEC;
+    height: 20px;
+    margin-top: 20px;
+}

@@ -1,10 +1,11 @@
+
 .cards {
     display: flex;
     flex-wrap: wrap;
 }
 .card {
     flex-basis: 20%;
-    margin: 0 1% 20px;
+    margin: 0 20px;
     img {
         display: block;
         margin-bottom: 20px;

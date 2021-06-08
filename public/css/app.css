@@ -38,6 +38,43 @@ p {
   display: flex;
 }
 
+.content {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.pad-t {
+  padding-top: 50px;
+}
+
+.pad-b {
+  padding-bottom: 80px;
+}
+
+.margin-t {
+  margin-top: 20px;
+}
+
+.margin-b {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  background-color: #1C7CEC;
+  color: #fff;
+  width: 140px;
+  padding: 10px;
+  margin-top: 40px;
+  position: relative;
+  left: 40%;
+}
+
+.sez-blue {
+  background-color: #1C7CEC;
+  height: 20px;
+  margin-top: 20px;
+}
+
 /*
 * ES HEADER | FOOTER
 */
@@ -103,7 +140,7 @@ a {
 
 .card {
   flex-basis: 20%;
-  margin: 0 1% 20px;
+  margin: 0 20px;
 }
 .card img {
   display: block;
